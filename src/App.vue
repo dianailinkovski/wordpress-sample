@@ -43,6 +43,10 @@ import localeZH from 'element-plus/lib/locale/lang/zh-cn'
 import localeEN from 'element-plus/lib/locale/lang/en'
 import useLang from '@/i18n/useLang'
 
+
+
+
+
 export default defineComponent({
   components: {
     [ElConfigProvider.name]: ElConfigProvider,

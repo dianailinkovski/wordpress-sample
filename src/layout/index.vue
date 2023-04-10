@@ -35,6 +35,10 @@
  -->
 
 <template>
+
+
+
+
   <div class="wrapper" :class="{ fluid: isFluid }">
     <sidebar v-if="isMenusShow && !isHorizontalMenu" />
     <div class="right" :class="{ flex: isTopbarFixed }">
